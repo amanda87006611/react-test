@@ -1,5 +1,3 @@
-import styles from "./style/task.module.scss";
-
 interface userInterface {
   firstName: string;
   lastName: string | null;
@@ -104,7 +102,7 @@ const TaskOne = () => {
   console.log("users", users);
   console.log("typeUser", typeUsers);
 
-  return <div className={styles.taskContainer}></div>;
+  return <div></div>;
 };
 
 export default TaskOne;

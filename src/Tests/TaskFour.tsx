@@ -1,5 +1,3 @@
-import "./style/TaskFour.css";
-
 const TaskFour = () => {
   return (
     <>
