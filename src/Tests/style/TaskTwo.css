@@ -1,0 +1,28 @@
+.container {
+  font-size: 14px;
+  /* border-bottom: 1px solid #ccc; */
+}
+
+.container .header {
+  font-size: 18px;
+}
+
+.container .shopList {
+  list-style: none;
+  margin-left: -15px;
+}
+
+.container .shopList > li.item {
+  /* change .container .shop-list li.item to child selector >*/
+  color: green;
+}
+
+.container .shopList > li.item:nth-child(odd) {
+  /* give odd child background */
+  background-color: #ddd;
+}
+
+.footer {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 12px;
+}
